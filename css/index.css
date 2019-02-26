@@ -87,6 +87,9 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
+@media(max-width: 800px) {
+  
+}
 /* header */
 
 header nav {
@@ -105,8 +108,8 @@ header nav a {
 }
 
 @media(max-width: 800px) { 
- a {
- margin-right: 60px;
+ nav {
+ margin-left: 80px;
 }
 
 }
@@ -148,6 +151,12 @@ header .logo {
   cursor: pointer;
 }
 
+@media(max-width: 800px) {
+.cta .cta-text button {
+  margin-bottom: 70px;
+}
+}
+
 .cta .cta-text button:hover {
   background: black;
   color: white;
@@ -162,6 +171,13 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    margin-top: 0pc;
+   
+  }
 }
 
 .main-content .top-content {
@@ -239,8 +255,22 @@ display: flex;
   margin-top: 130px;
   padding-left: 10px;
 }
+
+@media(max-width: 800px) {
+.innovation {
+  padding-left: 220px;
+  margin-top: 60px;
+}
+
+}
 .code-snippet {
   margin-left: 110px;
+}
+
+@media(max-width: 800px) {
+.code-snippet {
+  display: none;
+}
 }
 .contact {
   margin-top: 40px;
