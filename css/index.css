@@ -224,7 +224,10 @@ header nav a {
 }
 
     
-
+.top-page {
+  display: flex;
+  margin-bottom: 7.5%;
+}
 
 header nav a:hover {
   text-decoration: underline;
@@ -246,18 +249,23 @@ header .logo {
 @media(max-width: 500px) {
   .cta .cta-text {
     vertical-align: top;
-  font-size: 77px;
-  text-align: center;
+    font-size: 77px;
+    text-align: center;
   }
 }
 .cta .cta-text {
-  vertical-align: top;
+  display: flex;
   font-size: 77px;
-  margin-top: 120px;
+  justify-content: flex-end;
+  justify-content: space-between;
+  margin-left: 13%;
   text-align: center;
-  padding: 0px 75px;
-}
 
+ 
+}
+.h1andbutton {
+margin-top: 7.5%;
+}
 .cta .cta-text button {
   background: white;
   vertical-align: top;
@@ -279,9 +287,7 @@ header .logo {
   color: white;
 }
 
-.cta img {
-  margin-top: 69px;
-}
+
 @media(max-width: 500px) {
   .main-content {
     width: 100%;
